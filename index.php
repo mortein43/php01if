@@ -63,7 +63,7 @@ if ($session_id == 0) {
 $printx = rand(5, 200);
 $printy = rand(5, 200);
 $printColor = 'green';
-echo "<br> X = $printx, Y = $printy, Color = Green<br>Зелений чотирьокутник шукайте на сторінці.";
+echo "<br> X = $printx, Y = $printy, Color = Green<br>Зелений чотирикутник шукайте на сторінці.";
 echo "
 <div style='position: absolute; width: $printx; height: $printy; background-color: $printColor; top: 100px; left: 300px;'></div>
 ";
